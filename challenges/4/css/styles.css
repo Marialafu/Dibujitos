@@ -10,4 +10,28 @@ Colors:
 }
 
 .shape {
+  position: relative;
+  top: 26px;
+  left: 150px;
+  width: 100px;
+  height: 250px;
+  background-color: #063a86;
+}
+.shape::before{
+  content: "";
+  position: absolute;
+  top: -72px;
+  background-color: #4893d2;
+  width: 100px;
+  height: 100px;
+  rotate: 45deg;
+}
+.shape::after{
+  content: "";
+  position: absolute;
+  bottom: -70px;
+  background-color: #4893d2;
+  width: 100px;
+  height: 100px;
+  rotate: 45deg;
 }

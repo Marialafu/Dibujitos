@@ -11,4 +11,11 @@ Colors:
 }
 
 .shape {
+  position: relative;
+  top: 50px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: #fe5f55;
+  border-radius: 100px 100px 50px 50px;
 }
