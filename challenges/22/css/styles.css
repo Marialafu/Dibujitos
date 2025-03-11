@@ -13,4 +13,22 @@ Colors:
 }
 
 .shape {
+  position: relative;
+  top: 50px;
+  left: 100px;
+  width: 200px;
+  height: 90px;
+  background-color: #D25B70;
+  border-radius: 100px 100px 0 0;
+}
+.shape::after{
+  content: "";
+  position: absolute;
+  top: 65px;
+  left: 65px;
+  width: 70px;
+  height: 70px;
+  background-color: #F6DF96;
+  border-radius: 100%;
+  border: 10px solid #781728;
 }

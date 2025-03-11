@@ -9,7 +9,6 @@ Colors:
 .box {
   background-color: #0b2429;
 }
-
 .shape {
   position: relative;
   top: 50px;
@@ -20,12 +19,25 @@ Colors:
   background-color: #998235;
   border-radius: 100px 0px;
 }
+.shape::after{
+  content: "";
+  position: absolute;
+  rotate: 45deg;
+  top: 75px;
+  left: 75px;
+  width: 50px;
+  height: 50px;
+  background-color: #0b2429;
+  border-radius: 100px;
+  box-shadow: 0 0 0 44px #F3AC3C;
+}
 .shape::before{
   content: "";
   position: absolute;
-  top: 70px;
-  left: 70px;
-  width: 50px;
-  height: 50px;
-  background-color: antiquewhite;
+  top: 10px;
+  left: 10px;
+  width: 180px;
+  height: 180px;
+  background-color: #0b2429;
+  border-radius: 100px;
 }

@@ -10,4 +10,10 @@ Colors:
 }
 
 .shape {
+  position: relative;
+  top: -105px;
+  width: 100px;
+  height: 250px;
+  background-color: #F3AC3C;
+  rotate: 45deg;
 }

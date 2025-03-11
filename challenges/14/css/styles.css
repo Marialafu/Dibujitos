@@ -10,4 +10,13 @@ Colors:
 }
 
 .shape {
+  position: relative;
+  top: 100px;
+  left: 150px;
+  width: 100px;
+  height: 100px;
+  background-color: #84271C;
+  border-radius: 100%;
+  border: 25px solid #191210;
+  box-shadow: 0 0 0 20px #ECA03D;
 }
