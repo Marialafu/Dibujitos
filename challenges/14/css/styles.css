@@ -12,11 +12,35 @@ Colors:
 .shape {
   position: relative;
   top: 100px;
-  left: 150px;
+  left: 250px;
+  width: 100px;
+  height: 100px;
+  background-color: #191210;
+  border-radius: 100%;
+  border: 20px solid #ECA03D;
+  box-shadow: -200px 0 0 -20px #191210, -200px 0 #ECA03D;
+  
+}
+.shape::before{
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: -50px;
+  width: 200px;
+  height: 100px;
+  background-color: #191210;
+  box-shadow: -230px -100px #191210;
+  
+}
+.shape::after{
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 80px;
   width: 100px;
   height: 100px;
   background-color: #84271C;
   border-radius: 100%;
   border: 25px solid #191210;
-  box-shadow: 0 0 0 20px #ECA03D;
+  box-shadow: 0 0 0 20px #ECA03D;;
 }
