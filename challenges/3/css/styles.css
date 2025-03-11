@@ -1,0 +1,22 @@
+/* 
+IMPORTANTE: USAR UN SOLO DIV
+Colors:
+  Background: #121212
+  Circle:#3278ff
+  Rectangle:#ffe58e
+  Union: #79d6ff
+*/
+
+.box {
+  background-color: #121212;
+}
+
+.shape {
+  position: relative;
+  top: 50px;
+  left: 130px;
+  width: 150px;
+  height: 150px;
+  background-color: #3278ff;
+  border-radius: 100%;
+}
