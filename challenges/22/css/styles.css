@@ -17,9 +17,10 @@ Colors:
   top: 50px;
   left: 100px;
   width: 200px;
-  height: 90px;
+  height: 200px;
   background-color: #D25B70;
-  border-radius: 100px 100px 0 0;
+  border-radius: 100%;
+  box-shadow: inset 0px -30px;
 }
 .shape::after{
   content: "";
@@ -31,4 +32,11 @@ Colors:
   background-color: #F6DF96;
   border-radius: 100%;
   border: 10px solid #781728;
+}
+.shape::before{
+  content: "";
+  position: absolute;
+  top: 110px;
+  width: 200px;
+  height: 90px;
 }
