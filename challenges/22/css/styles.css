@@ -18,22 +18,21 @@ Colors:
   left: 100px;
   width: 200px;
   height: 200px;
-  background-color: #D25B70;
+  background-color: #d25b70;
   border-radius: 100%;
-  box-shadow: inset 0px -30px;
 }
-.shape::after{
+.shape::after {
   content: "";
   position: absolute;
   top: 65px;
   left: 65px;
   width: 70px;
   height: 70px;
-  background-color: #F6DF96;
+  background-color: #f6df96;
   border-radius: 100%;
   border: 10px solid #781728;
 }
-.shape::before{
+.shape::before {
   content: "";
   position: absolute;
   top: 110px;

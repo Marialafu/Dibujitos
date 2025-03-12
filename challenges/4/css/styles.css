@@ -17,7 +17,7 @@ Colors:
   height: 250px;
   background-color: #063a86;
 }
-.shape::before{
+.shape::before {
   content: "";
   position: absolute;
   top: -72px;
@@ -25,13 +25,5 @@ Colors:
   width: 100px;
   height: 100px;
   rotate: 45deg;
-}
-.shape::after{
-  content: "";
-  position: absolute;
-  bottom: -70px;
-  background-color: #4893d2;
-  width: 100px;
-  height: 100px;
-  rotate: 45deg;
+  box-shadow: 206px 206px #4893d2;
 }

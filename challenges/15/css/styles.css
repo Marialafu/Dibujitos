@@ -13,31 +13,35 @@ Colors:
 
 .shape {
   position: relative;
-  top: 70px;
-  left: 120px;
-  width: 160px;
-  height: 160px;
-  background-color: #824B20;
+  top: 100px;
+  left: 150px;
+  width: 100px;
+  height: 100px;
+  background-color: #e08027;
   border-radius: 100%;
+  box-shadow: 0 0 0 30px #824b20;
 }
 .shape::before {
   content: "";
   position: absolute;
-  top: 30px;
-  left: 30px;
-  width: 100px;
-  height: 100px;
-  background-color: #E08027;
+  top: -10px;
+  left: -10px;
+  width: 120px;
+  height: 120px;
   border-radius: 100%;
+  border: 20px solid transparent;
+  border-bottom: 20px solid #fff58f;
+  border-left: 20px solid #fff58f;
+  rotate: -45deg;
 }
 .shape::after {
   content: "";
   position: absolute;
-  top: 70px;
-  left: 20px;
+  top: 40px;
+  left: -10px;
   width: 20px;
   height: 20px;
-  background-color: #FFF58F;
+  background-color: #fff58f;
   border-radius: 100%;
-  box-shadow: 100px 0 #FFF58F;
+  box-shadow: 100px 0 #fff58f;
 }

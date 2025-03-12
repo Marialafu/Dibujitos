@@ -13,29 +13,11 @@ Colors:
 
 .leaf {
   position: relative;
-  top: 76px;
-  left: 75px;
+  top: 75px;
+  left: 175px;
   width: 150px;
-  height: 149px;
-  background-color: #1a4341;
-  border-radius: 103px 0;
-}
-.leaf::after {
-  content: "";
-  position: absolute;
-  left: 50px;
-  width: 150px;
-  height: 149px;
-  background-color: #998235;
-  border-radius: 103px 0;
-}
-.leaf::before {
-  content: "";
-  position: absolute;
-  left: 100px;
-  width: 150px;
-  height: 149px;
+  height: 150px;
   background-color: #f3ac3c;
-  border-radius: 103px 0;
-  z-index:1;
+  border-radius: 100px 0;
+  box-shadow: -50px 0 #998235, -100px 0 #1a4341;
 }
